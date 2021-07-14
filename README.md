@@ -5,7 +5,7 @@ Plus some of the important information, like Data Structure and Algorithms still
 ## Javascript Projects
 
  No. | Project 
- --- | --- | --- 
+ --- | ---
  1 | [digital clock](https://github.com/CharlesKasasira/javascript/tree/projects/projects/clock) 
 
 ## Data Structure and Algorithms
