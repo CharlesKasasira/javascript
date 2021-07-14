@@ -7,6 +7,7 @@ Plus some of the important information, like Data Structure and Algorithms still
  No. | Project 
  --- | ---
  1 | [digital clock](https://github.com/CharlesKasasira/javascript/tree/projects/projects/clock) 
+ 2 | [Calendar](https://github.com/CharlesKasasira/javascript/tree/projects/projects/calender)
 
 ## Data Structure and Algorithms
 
