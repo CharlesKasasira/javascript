@@ -1,6 +1,7 @@
 # Javascript
-This includes some of the projects i have tried out using javascript. 
-Plus some of the important information, like Data Structure and Algorithms still using javascript
+This repository includes some of the projects i have tried out using javascript.
+
+Data Structure and Algorithms still using javascript
 
 ## Javascript Projects
 
