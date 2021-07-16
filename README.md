@@ -16,4 +16,4 @@ Here I wonder through most of the data structures plus the most common algorithm
 
 No. | Algorithms
 --- | ------
-1 | [bubble sort]()
+1 | [bubble sort](https://github.com/CharlesKasasira/javascript/blob/projects/DSA/bubbleSort.js)
