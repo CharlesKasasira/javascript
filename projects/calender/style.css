@@ -1,0 +1,30 @@
+#container{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#monthAndYear{
+    color: #fff;
+    background-color: darkblue;
+    height: 50px;
+}
+
+.card{
+    width: 400px;
+    text-align: center;
+}
+
+#sun {
+    background-color: crimson;
+    color: #fff;
+}
+
+td{
+    width: 40px;
+    height: 40px;
+}
+
+#trial{
+    justify-content: center;
+}
