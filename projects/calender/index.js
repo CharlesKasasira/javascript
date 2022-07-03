@@ -34,7 +34,7 @@ for (let i = 0; i < 6; i++){// rows
     let row = document.createElement("tr");
     for(let j = 0; j < 7; j++){ // columns
         let column = document.createElement("td");
-        if(date > daysInMonth){// making sure that the date is not more than the days in the month.
+        if(date > daysInMonth){// making sure that the date is not more than the days in the month. 
             break;
         } 
         else if (i === 0 && j < dayOne ){
