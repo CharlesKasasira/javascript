@@ -4,7 +4,7 @@ export const outline = [
     week: "week zero",
     sessions: [
       {
-        session: "session 0",
+        session: "Session 0",
         topics: [
           "Introduction to JavaScript",
           "What can JavaScript Do",
@@ -15,7 +15,7 @@ export const outline = [
         ],
       },
       {
-        session: "session 1",
+        session: "Session 1",
         topics: ["JavaScript Datatypes (strings, numbers, objects)"],
       },
       { session: "session 2", topics: ["Data Structures: Arrays and Objects"] },
@@ -27,12 +27,12 @@ export const outline = [
     week: "week one",
     sessions: [
       {
-        session: "session 5",
+        session: "Session 5",
         topics: ["Iteration"],
       },
       {
-        session: "session 6",
-        topics: ["11. Functions"],
+        session: "Session 6",
+        topics: ["Functions"],
       },
     ],
   },
@@ -41,7 +41,7 @@ export const outline = [
     week: "week two",
     sessions: [
       {
-        session: "session 7",
+        session: "Session 7",
         topics: ["JS HTML DOM", "Events and Forms."],
       },
     ],
@@ -51,11 +51,11 @@ export const outline = [
     week: "week three",
     sessions: [
       {
-        session: "session 8",
+        session: "Session 8",
         topics: ["Asynchronous Javascript"],
       },
       {
-        session: "session 9",
+        session: "Session 9",
         topics: ["Async/Await", "working with API's"],
       },
     ],
@@ -65,11 +65,11 @@ export const outline = [
     week: "week four",
     sessions: [
       {
-        session: "session 10",
+        session: "Session 10",
         topics: ["Client-side Storage"],
       },
       {
-        session: "session 11",
+        session: "Session 11",
         topics: ["TDD & BDD"],
       },
     ],

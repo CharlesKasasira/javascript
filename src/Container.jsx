@@ -1,15 +1,15 @@
-import { Navbar, Sidebar } from "./components"
+import { Navbar, Sidebar, Content } from "./components";
 
 function Container() {
   return (
     <main>
       <Navbar />
-      <main className="flex w-screen h-[calc(100vh-60px)]">
+      <main className="flex w-screen h-[calc(100vh-58px)] overflow-hidden">
         <Sidebar />
-        <div className="w-[calc(100vw-200px)]"></div>
+        <Content />
       </main>
     </main>
-  )
+  );
 }
 
-export default Container
+export default Container;
