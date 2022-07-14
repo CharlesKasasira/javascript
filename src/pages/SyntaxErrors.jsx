@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-function CanDo() {
+function SyntaxErrors() {
   return (
     <div>
-      <h1 className="font-bold text-2xl my-5">What can JavaScript Do</h1>
+      <h1 className="font-bold text-2xl my-5">Syntax And Errors</h1>
       <div>
         <main>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum ut
@@ -123,18 +123,20 @@ function CanDo() {
         </main>
       </div>
       <div className="flex justify-between">
-        <div className="outline outline-1 rounded-lg w-60 h-14 my-5 pl-5 flex items-center cursor-pointer"
-        onClick={() => document.getElementById("content").scrollTop = 0}
+        <div
+          className="outline outline-1 rounded-lg w-60 h-14 my-5 pl-5 flex items-center cursor-pointer"
+          onClick={() => (document.getElementById("content").scrollTop = 0)}
         >
           <Link to="/intro" className="underline">
-            Introduction
+            What can JavaScript Do
           </Link>
         </div>
-        <div className="outline outline-1 rounded-lg w-60 h-14 my-5 pl-5 flex items-center cursor-pointer"
-        onClick={() => document.getElementById("content").scrollTop = 0}
+        <div
+          className="outline outline-1 rounded-lg w-60 h-14 my-5 pl-5 flex items-center cursor-pointer"
+          onClick={() => (document.getElementById("content").scrollTop = 0)}
         >
           <Link to="/intro/2" className="underline">
-            Syntax and Errors
+            Variables and Constant
           </Link>
         </div>
       </div>
@@ -142,4 +144,4 @@ function CanDo() {
   );
 }
 
-export default CanDo;
+export default SyntaxErrors;

@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -6,9 +6,23 @@ function Navbar() {
       <div className="cursor-pointer font-bold text-lg">JavaScript</div>
       <ul className="flex gap-4 items-center">
         <li className="cursor-pointer">Docs</li>
+        <li
+          className="cursor-pointer"
+          onClick={() => {
+            document.getElementById("content").requestFullscreen();
+            // document.body.requestFullscreen();
+          }}
+        >
+          Presentation
+        </li>
         <li className="cursor-pointer">Projects</li>
+        <li className="cursor-pointer">Quiz</li>
         <li className="cursor-pointer">Editor</li>
-        <li className="cursor-pointer mx-1"><FaGithub size={25} /></li>
+        <li className="cursor-pointer mx-1">
+          <a href="https://github.com/charleskasasira/javascript">
+            <FaGithub size={25} />
+          </a>
+        </li>
       </ul>
     </nav>
   );

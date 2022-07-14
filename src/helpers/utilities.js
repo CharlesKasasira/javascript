@@ -6,7 +6,7 @@ export const outline = [
       {
         session: "Session 0",
         topics: [
-          "Introduction to JavaScript",
+          "Introduction",
           "What can JavaScript Do",
           "Syntax and Errors",
           "Variables and Constants",

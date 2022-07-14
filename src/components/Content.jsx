@@ -1,6 +1,6 @@
-import { CanDo, Intro } from "../pages";
+import { CanDo, Intro, ReversedWords, Statements } from "../pages";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -8,12 +8,18 @@ import {
 
 function Content() {
   return (
-    <div className="w-[calc(100vw-200px)] px-20 h-full overflow-auto">
-      <Router basename={process.env.PUBLIC_URL}>
+    <div
+      className="w-[calc(100vw-200px)] px-20 h-full overflow-auto bg-white"
+      id="content"
+    >
+      <Router basename="/">
         {/* <Router> */}
         <Routes>
-          <Route path="javascript/intro" element={<Intro />} />
-          <Route path="javascript/intro/2" element={<CanDo />} />
+          <Route path="/intro" element={<Intro />} />
+          <Route path="/intro/2" element={<CanDo />} />
+          <Route path="/reversed-words" element={<ReversedWords />} />
+          {/* <Route path="/syntax-and-errors" element={<CanDo />} /> */}
+          <Route path="/statements" element={<Statements />} />
         </Routes>
       </Router>
     </div>

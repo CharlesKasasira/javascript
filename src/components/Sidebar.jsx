@@ -44,7 +44,7 @@ function Sidebar() {
                       {session.session}
                     </li>
                     {topic === index && (
-                      <ul className="outline outline-1 mx-1 outline-gray-200 bg-[#f7f7f7] rounded w-[200px] px-2 py-1">
+                      <ul className="outline outline-1 mx-1 outline-gray-200 bg-[#f7f7f7] text-sm rounded w-[200px] px-2 py-1">
                         {item.sessions[index].topics.map((lesson, index) => (
                           <li className="cursor-pointer">{lesson}</li>
                         ))}
