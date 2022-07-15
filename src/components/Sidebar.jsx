@@ -3,7 +3,7 @@ import {
   MdOutlineKeyboardArrowDown,
   MdKeyboardArrowLeft,
 } from "react-icons/md";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 
 function Sidebar() {
@@ -46,7 +46,11 @@ function Sidebar() {
                     {topic === index && (
                       <ul className="outline outline-1 mx-1 outline-gray-200 bg-[#f7f7f7] text-sm rounded w-[200px] px-2 py-1">
                         {item.sessions[index].topics.map((lesson, index) => (
-                          <li className="cursor-pointer">{lesson}</li>
+                          <a
+                           className="cursor-pointer"
+                           href="/javascript/#/intro"
+                           >{lesson}
+                           </a>
                         ))}
                       </ul>
                     )}

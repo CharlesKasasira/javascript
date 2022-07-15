@@ -1,7 +1,7 @@
 export const outline = [
   {
     id: 1,
-    week: "week zero",
+    week: "week One",
     sessions: [
       {
         session: "Session 0",
@@ -24,7 +24,7 @@ export const outline = [
   },
   {
     id: 2,
-    week: "week one",
+    week: "week Two",
     sessions: [
       {
         session: "Session 5",
@@ -38,7 +38,7 @@ export const outline = [
   },
   {
     id: 3,
-    week: "week two",
+    week: "week Three",
     sessions: [
       {
         session: "Session 7",
@@ -48,7 +48,7 @@ export const outline = [
   },
   {
     id: 4,
-    week: "week three",
+    week: "week Four",
     sessions: [
       {
         session: "Session 8",
@@ -62,7 +62,7 @@ export const outline = [
   },
   {
     id: 5,
-    week: "week four",
+    week: "week Five",
     sessions: [
       {
         session: "Session 10",
