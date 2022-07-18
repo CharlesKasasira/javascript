@@ -33,7 +33,6 @@ console = {
     }
 }
 
-console.log(window.console)
   
   return (
     <div className="bg-black w-screen h-[calc(100vh-60px)] flex gap-2">

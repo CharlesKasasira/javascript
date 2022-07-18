@@ -6,14 +6,37 @@ function Intro() {
 
   return (
     <div>
-      <h1 className={`font-bold text-2xl my-5 ${presentMode && "text-4xl"}`}>
-        Introduction to JavaScript
-      </h1>
       <div>
+        <div className="my-10">
+          <h4 className="font-bold">Objectives</h4>
+          <ul>
+            <li>
+              - By the end of unit, you must be able to stand tall as front-end
+              developers.
+            </li>
+            <li>- Be able To build fully functional websites.</li>
+          </ul>
+          <br />
+          <h4 className="font-bold">Today's Objectives</h4>
+          <ul>
+            <li>
+              - You be able to explain what programming is and a programming
+              language.
+            </li>
+            <li>- A little bit of How JavaScript works.</li>
+            <li>- Be able to understand JavaScript Code when you see.</li>
+          </ul>
+        </div>
+
         <main>
+          <h1
+            className={`font-bold text-2xl my-5 ${presentMode && "text-4xl"}`}
+          >
+            Introduction to JavaScript
+          </h1>
           “JavaScript is arguably one of the most important languages today. The
           rise of the web has taken JavaScript places it was never conceived to
-          be. ”
+          be.”
           <br />
           <br />
           <br />
@@ -26,11 +49,10 @@ function Intro() {
           <br />
           <br />
           <br />
-          <span className="font-medium">Prerequisites</span> 
+          <span className="font-medium">Prerequisites</span>
           <br />
-          - HTML 
-          <br />
-          - CSS
+          - HTML
+          <br />- CSS
         </main>
       </div>
       <div className="flex justify-end">

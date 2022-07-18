@@ -1,5 +1,5 @@
 import { Navbar, Sidebar, Content } from "./components";
-import { CanDo, Intro, ReversedWords, Statements, SyntaxErrors, Variables } from "./pages";
+import { CanDo, Intro, ReversedWords, Statements, SyntaxErrors, Variables, Quiz } from "./pages";
 import { Editor } from "./pages";
 import Layout from "./Layout";
 import {
@@ -25,6 +25,7 @@ function Container() {
             <Route path="/syntax-and-errors" element={<SyntaxErrors />} />
             <Route path="/variables-and-constants" element={<Variables />} />
             <Route path="/statements" element={<Statements />} />
+            <Route path="/quiz" element={<Quiz />} />
           </Route>
         </Routes>
       </Router>

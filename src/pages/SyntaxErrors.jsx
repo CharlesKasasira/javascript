@@ -4,12 +4,13 @@ import { javascript } from "@codemirror/lang-javascript";
 import { useAuth } from "../Context/AuthContext";
 
 function SyntaxErrors() {
-
-  const { presentMode, setPresentMode } = useAuth()
+  const { presentMode, setPresentMode } = useAuth();
 
   return (
     <div>
-      <h1 className={`font-bold text-2xl my-5 ${presentMode && "text-4xl"}`}>Syntax And Errors</h1>
+      <h1 className={`font-bold text-2xl my-5 ${presentMode && "text-4xl"}`}>
+        Syntax And Errors
+      </h1>
       <div>
         <main>
           <header>The JavaScript Syntax</header>
@@ -30,13 +31,27 @@ function SyntaxErrors() {
             />
           </div>
           <div className="my-5">
-            <header className="font-medium text-2xl">Errors in JavaScript</header>
+            <header className="font-semibold text-2xl y-2">
+              Errors in JavaScript
+            </header>
             The different types of errors include:
             <ul>
               <li>Syntax Errors</li>
               <li>Semantic Errors</li>
               <li>Runtime Errors</li>
             </ul>
+          </div>
+          <div className="my-5">
+            Some of the most common errors you will run into while using
+            JavaScript:
+            <div>
+              <span className="underline text-red-400">SyntaxError</span>,{" "}
+              <span className="underline text-red-400">TypeError</span>,{" "}
+              <span className="underline text-red-400">ReferenceError</span>,{" "}
+              <span className="underline text-red-400">RangeError</span>,{" "}
+              <span className="underline text-red-400">EvalError</span>,{" "}
+              <span className="underline text-red-400">InternalError</span>
+            </div>
           </div>
         </main>
       </div>

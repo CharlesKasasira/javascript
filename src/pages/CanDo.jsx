@@ -19,7 +19,7 @@ function CanDo() {
           </header>
           <img src={cando} alt="where to use JS" />
           <section>
-            Here are some of the places where we can use JavaScript Today.
+            <h4 className="font-semibold">Here are some of the places where we can use JavaScript Today.</h4>
             <ul className="ml-5">
               <li className="my-2">
                 <span className="underline mr-2">Client-side: </span>
@@ -54,7 +54,22 @@ function CanDo() {
                 This was javascript's initial home, Javascript is able to
                 integrate with Html and works across all the major browsers.
               </li>
+              <li className="my-2">
+                <span className="underline mr-2">
+                  Machine Learning:{" "}
+                </span>
+                Machine Learning: This JavaScript ml5.js library can be used in web development by using machine learning.
+              </li>
+              <li className="my-2">
+                <span className="underline mr-2">
+                  Games:{" "}
+                </span>
+                Not only in websites, but JavaScript also helps in creating games for leisure. The combination of JavaScript and HTML 5 makes JavaScript popular in game development as well. It provides the EaseJS library which provides solutions for working with rich graphics.
+              </li>
             </ul>
+          </section>
+          <section>
+            <h4 className="font-semibold">Limitations of JavaScript.</h4>
           </section>
         </main>
       </div>

@@ -37,7 +37,9 @@ function Navbar() {
           Presentation
         </li>
         <li className="cursor-pointer">Projects</li>
-        <li className="cursor-pointer">Quiz</li>
+        <li className="cursor-pointer">
+          <a href="/javascript/#/quiz">Quiz</a>
+        </li>
         <li className="cursor-pointer">
           <a href="/javascript/#/editor">Editor</a>
         </li>
