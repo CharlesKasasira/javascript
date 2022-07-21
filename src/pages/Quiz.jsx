@@ -1,6 +1,7 @@
 import { QUESTIONS } from "../helpers/quiz"
 import { useState, useEffect } from 'react'
 import { MdQuestionAnswer } from 'react-icons/md'
+import axios from "axios"
 
 function Quiz() {
   const [ qn, setQn] = useState(1)
@@ -12,6 +13,8 @@ function Quiz() {
     setAnswer({
       ...answers, [`${qn}`]: selected
     })
+    axios.get('http://127.0.0.1:8000/')
+      .then((data) => console.log(data.data))
   }, [selected])
 
   console.log(answers)

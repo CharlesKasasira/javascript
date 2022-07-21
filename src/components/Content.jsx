@@ -1,4 +1,4 @@
-import { CanDo, Intro, ReversedWords, Statements, SyntaxErrors, Variables, Editor } from "../pages";
+import { CanDo, Intro, ReversedWords, Statements, SyntaxErrors, Variables, Datatypes } from "../pages";
 import {
   HashRouter as Router,
   Routes,
@@ -22,6 +22,7 @@ function Content() {
           <Route path="/syntax-and-errors" element={<SyntaxErrors />} />
           <Route path="/variables-and-constants" element={<Variables />} />
           <Route path="/statements" element={<Statements />} />
+          <Route path="/data-types" element={<Statements />} />
           {/* <Route path="/editor" element={<Editor />} /> */}
         {/* </Routes> */}
       {/* </Router> */}
