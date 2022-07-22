@@ -1,0 +1,29 @@
+.active{
+  text-decoration: underline;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 10px;
+}
+
+.nav-icon{
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar ul{
+    flex-direction: column;
+    position: absolute;
+    background-color: #20232A;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .nav-icon{
+    display: block;
+  }
+}

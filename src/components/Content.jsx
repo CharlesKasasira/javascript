@@ -13,9 +13,6 @@ function Content() {
       className="w-[calc(100vw-200px)] px-20 h-full overflow-auto bg-white"
       id="content"
     >
-      {/* <Router basename="/"> */}
-        {/* <Router> */}
-        {/* <Routes> */}
           <Route path="/intro" element={<Intro />} />
           <Route path="/intro/2" element={<CanDo />} />
           <Route path="/reversed-words" element={<ReversedWords />} />
@@ -23,9 +20,6 @@ function Content() {
           <Route path="/variables-and-constants" element={<Variables />} />
           <Route path="/statements" element={<Statements />} />
           <Route path="/data-types" element={<Statements />} />
-          {/* <Route path="/editor" element={<Editor />} /> */}
-        {/* </Routes> */}
-      {/* </Router> */}
     </div>
   );
 }

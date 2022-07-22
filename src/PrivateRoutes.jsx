@@ -1,11 +1,14 @@
-import { Outlet, Navigate, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { Navbar } from "./components";
 
 function PrivateRoutes() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div className="mt-[60px]">
+        <Outlet />
+      </div>
+      
     </>
   )
 }

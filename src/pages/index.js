@@ -11,6 +11,7 @@ import CreateQuiz from "./CreateQuiz";
 import Datatypes from "./Datatypes";
 import QuizDetail from "./QuizDetail";
 import Login from "./onboarding/Login";
+import NotFound from "./onboarding/NotFound";
 
 export {
   Intro,
@@ -21,5 +22,5 @@ export {
   Variables,
   Editor,
   Quiz, Datatypes,
-  QuizHome, CreateQuiz, QuizDetail, Login
+  QuizHome, CreateQuiz, QuizDetail, Login, NotFound
 };

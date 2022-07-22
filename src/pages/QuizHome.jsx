@@ -10,6 +10,8 @@ function QuizHome() {
       .then((data) => setQuizzes(data.data))
   }, [])
 
+  console.log(quizzes.results)
+
   return (
     <div>
       <div className='mt-5'> 
@@ -18,8 +20,8 @@ function QuizHome() {
         </Link>
       </div>
       <div className='flex flex-wrap justify-center mt-5'>
-        {quizzes.length > 0 &&
-        quizzes.map((quiz, index) => (
+        {quizzes?.results && quizzes.results.length > 0 &&
+        quizzes.results.map((quiz, index) => (
           <Link to={`/quiz/${quiz.id}`} className='m-2 border-t-8 border-gray-700 p-5 rounded-sm flex flex-col items-center shadow-lg cursor-pointer'
           >
             <h1 className='font-bold text-lg'>{quiz.title}</h1>

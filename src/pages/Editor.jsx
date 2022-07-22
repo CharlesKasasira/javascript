@@ -35,8 +35,30 @@ console = {
 
   
   return (
-    <div className="bg-black w-screen h-[calc(100vh-60px)] flex gap-2">
-      <div className="w-[50%] bg-black h-full">
+    <div className="bg-black w-screen h-[calc(100vh-60px)] flex flex-col md:flex-row  gap-2 overflow-auto md:overflow-hidden">
+      <div className="md:w-[50%] bg-white h-full relative">
+        {/* <div className="" id="htmlCode">
+
+        </div> */}
+        <iframe
+                srcDoc={srcDoc}
+                title="output"
+                sandbox="allow-scripts"
+                width="100%"
+                height="100%"
+                overflow="scroll"
+                style={{
+                  backgroundColor: "white",
+                  outline: "none",
+                  border: "none",
+                }}
+              />
+        <div className="bg-gray-300 flex justify-between p-4 absolute right-0 left-0 bottom-0">
+          <p className="cursor-pointer">BROWSER</p>
+          <p className="cursor-pointer">CONSOLE</p>
+        </div>
+      </div>
+      <div className="md:w-[50%] bg-black h-full">
         <div className="">
           <h3 className="text-white font-bold ml-3 uppercase flex justify-between items-center">
             html
@@ -93,28 +115,7 @@ console = {
           />
         </div>
       </div>
-      <div className="w-[50%] bg-white h-full relative">
-        {/* <div className="" id="htmlCode">
-
-        </div> */}
-        <iframe
-                srcDoc={srcDoc}
-                title="output"
-                sandbox="allow-scripts"
-                width="100%"
-                height="100%"
-                overflow="scroll"
-                style={{
-                  backgroundColor: "white",
-                  outline: "none",
-                  border: "none",
-                }}
-              />
-        <div className="bg-gray-300 flex justify-between p-4 absolute right-0 left-0 bottom-0">
-          <p className="cursor-pointer">BROWSER</p>
-          <p className="cursor-pointer">CONSOLE</p>
-        </div>
-      </div>
+      
     </div>
   );
 }

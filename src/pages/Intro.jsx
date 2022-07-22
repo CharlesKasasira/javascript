@@ -57,7 +57,7 @@ function Intro() {
       </div>
       <div className="flex justify-end">
         <div
-          className="outline outline-1 rounded-lg w-60 h-14 my-5 pl-5 flex items-center cursor-pointer"
+          className="outline outline-1 rounded-lg w-32 md:w-60 h-14 my-5 pl-2 md:pl-5 flex items-center cursor-pointer"
           onClick={() => (document.getElementById("content").scrollTop = 0)}
         >
           <Link to="/intro/2" className="underline text-sm">

@@ -114,7 +114,7 @@ function Variables() {
 
       <div className="flex justify-between">
         <div
-          className="outline outline-1 rounded-lg w-60 h-14 my-5 pl-5 flex items-center cursor-pointer"
+          className="outline outline-1 rounded-lg w-32 md:w-60 h-14 my-5 pl-2 md:pl-5 flex items-center cursor-pointer"
           onClick={() => (document.getElementById("content").scrollTop = 0)}
         >
           <Link to="/syntax-and-errors" className="underline text-sm">
@@ -122,7 +122,7 @@ function Variables() {
           </Link>
         </div>
         <div
-          className="outline outline-1 rounded-lg w-60 h-14 my-5 pl-5 flex items-center cursor-pointer"
+          className="outline outline-1 rounded-lg w-32 md:w-60 h-14 my-5 pl-2 md:pl-5 flex items-center cursor-pointer"
           onClick={() => (document.getElementById("content").scrollTop = 0)}
         >
           <Link to="/reversed-words" className="underline text-sm">

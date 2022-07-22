@@ -11,7 +11,7 @@ import {
   QuizHome,
   CreateQuiz,
   QuizDetail,
-  Login,
+  Login, NotFound
 } from "./pages";
 import { Editor } from "./pages";
 import Layout from "./Layout";
@@ -27,8 +27,6 @@ function Container() {
   return (
     <>
       <Router basename="/">
-        {/* <Navbar /> */}
-        {/* <Router> */}
         <Routes>
           <Route path="/" element={<Login />} />
 
@@ -46,8 +44,11 @@ function Container() {
               <Route path="/variables-and-constants" element={<Variables />} />
               <Route path="/statements" element={<Statements />} />
               <Route path="/data-types" element={<Datatypes />} />
+              {/* <Content /> */}
             </Route>
           </Route>
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </>
